@@ -10,25 +10,28 @@
 
 ## 🌌 ¿Qué es Urano Tools?
 
-**UranoTools** es la división de **UranoProject** dedicada al **software libre y open source**. 
+**UranoTools** es la división **open source** de **Urano Project**.
 
-Nace directamente de nuestro **software enterprise** y vive dentro del ecosistema Urano para aprovechar al máximo el modelo completo de Urano Project (arquitectura multi-agente, MCP, ACP, ejecución local, etc.).
-
-Aquí liberamos herramientas, plantillas, protocolos y componentes que cualquiera puede usar, estudiar, modificar y mejorar.
+Nace directamente de nuestro **software enterprise** y vive integrado dentro del ecosistema Urano, aprovechando toda su arquitectura para liberar herramientas, protocolos y componentes que benefician tanto a usuarios individuales como a empresas.
 
 ---
 
 ## 🌌 ¿Qué es Urano Project?
 
-**Urano** es un ecosistema completo para **inteligencia artificial personal y autónoma**.
+**Urano Project** es una plataforma **enterprise** especializada en el desarrollo de módulos empresariales en la nube:
 
-Permite crear, orquestar y desplegar agentes de IA que realmente actúan en tu computadora, tus herramientas y tus flujos de trabajo, con énfasis en **privacidad**, **control total** y **escalabilidad**.
+- **ERP** (Planificación de Recursos Empresariales)
+- **CRM** (Gestión de Relaciones con Clientes)
+- **BPM** (Gestión de Procesos de Negocio)
+- **Módulos personalizados** a medida
 
-### Productos principales
+Además, **Urano Project** integra de forma nativa la división de Inteligencia Artificial:
 
-- **[Urano Desktop](https://uranoai.com)** — Tu laboratorio personal de IA (multi-agente, MCP plugins, visión, notificaciones nativas, etc.)
-- **Urano CLI** — Versión ligera y potente para terminal
-- **ACP-Urano** — Protocolo para eliminar alucinaciones y dar control preciso a los agentes
+### UranoAI — División de Inteligencia Artificial
+
+- **[Urano Desktop](https://uranoai.com)** — El producto estrella de UranoAI: tu laboratorio personal de IA autónoma (multi-agente, plugins MCP, visión por computadora, automatizaciones locales y más).
+- **Urano CLI** — Herramienta ligera para terminal
+- **ACP-Urano** — Protocolo avanzado para control preciso y reducción de alucinaciones
 
 ---
 
@@ -52,19 +55,17 @@ Sigue el tutorial completo:
 
 ---
 
-## 🎯 Para desarrolladores
+## 🎯 Para desarrolladores y empresas
 
-Queremos construir en público. Si te apasiona la IA autónoma, agentes locales, MCPs o automatización:
-
-- **Guías oficiales** en el repo [UranoDesktop](https://github.com/uranotools/UranoDesktop)
-- Crea tus propios plugins MCP y publícalos en el marketplace de Urano
-- Únete a la comunidad
+- Empresas que usan Urano Project pueden extender sus ERP/CRM/BPM con agentes inteligentes locales.
+- Desarrolladores pueden crear plugins MCP y contribuir al ecosistema open source.
+- Todo diseñado para que el software propietario y el open source se potencien mutuamente.
 
 ---
 
 ## 🔗 Enlaces importantes
 
-- **Sitio oficial**: [uranoai.com](https://uranoai.com)
+- **Sitio oficial UranoAI**: [uranoai.com](https://uranoai.com)
 - **Descargar Urano Desktop**: [uranoai.com](https://uranoai.com)
 - **Blog / Tutoriales**: [uranoproject.medium.com](https://uranoproject.medium.com)
 - **X (Twitter)**: [@uranoproject](https://x.com/uranoproject)
