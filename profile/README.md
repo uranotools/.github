@@ -27,23 +27,25 @@ Creemos firmemente que:
 
 ---
 
-## 🛡️ Proyectos Principales del Ecosistema
+## 🛡️ Arquitectura del Ecosistema
 
+```mermaid
+flowchart LR
+    classDef cyber fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#fff;
+    classDef agent fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff;
+    classDef proto fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#fff;
+
+    EXTERNAL([🌐 Tráfico / Webhooks / Prompts]) --> GUARD[🛡️ Urano Guard<br/>AI WAF & Perimeter Shield]:::cyber
+    
+    GUARD -- "Tráfico Sanitizado (<1ms)" --> DESKTOP[🖥️ Urano Desktop<br/>Laboratorio Multi-Agente Local]:::agent
+    
+    DESKTOP <--> ACP[📐 ACP-Urano Protocol<br/>Control Anti-Alucinación]:::proto
+    DESKTOP <--> MCP[🧩 MCP Plugins Ecosystem<br/>Tools / FS / Shell / Vision]:::agent
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        URANO OPEN ECOSYSTEM                            │
-├──────────────────────────────────┬─────────────────────────────────────┤
-│   🛡️ URANO GUARD                 │   🖥️ URANO DESKTOP                  │
-│   Ciberdefensa Perimetral & WAF  │   Laboratorio de Agentes Autónomos  │
-│   • Anti-Prompt Injection        │   • Orquestación Multi-Agente       │
-│   • Circuit Breaker Tri-Estado   │   • Ecosistema MCP Plugins          │
-│   • Semantic Rate Limiting       │   • Ejecución Local & Privacidad    │
-├──────────────────────────────────┴─────────────────────────────────────┤
-│   📐 ACP-URANO PROTOCOL                                                │
-│   Protocolo de contexto para mitigar alucinaciones y estandarizar     │
-│   la toma de decisiones de agentes en entornos de producción.          │
-└────────────────────────────────────────────────────────────────────────┘
-```
+
+---
+
+## 🚀 Proyectos Principales
 
 ### 1. 🛡️ [`urano-guard`](https://github.com/uranotools/urano-guard) *(NUEVO)*
 > **High-Resilience Security Gateway & AI WAF Middleware** para APIs, Webhooks y Aplicaciones con LLMs.
